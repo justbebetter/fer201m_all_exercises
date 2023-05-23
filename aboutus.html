@@ -55,41 +55,44 @@
   
           <div class="row row-content">
             <div class="col-12">
-              <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#peter"
-                    role="tab" data-toggle="tab">Peter Pan, CEO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#danny" role="tab"
-                    data-toggle="tab">Danny Witherspoon, CFO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#agumbe"role="tab"
-                    data-toggle="tab">Agumbe Tang, CTO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#alberto" role="tab"
-                    data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-                </li>
-            </ul>
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade show active" id="peter">
-                <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                <p> ... </p>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="danny">
-              <h3>Danny Pan <small>Chief Epicurious Officer</small></h3>
-              <p> ... </p>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="agumbe">
-              <h3>Agumbe Pan <small>Chief Epicurious Officer</small></h3>
-              <p> ... </p>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="alberto">
-              <h3>Alberto Pan <small>Chief Epicurious Officer</small></h3>
-              <p> ... </p>
-            </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Peter Pan <small>Chief Epicurious Officer</small>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Dhanasekaran Witherspoon <small>Chief Food Officer</small>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Agumbe Tang <small>Chief Taste Officer</small>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="col-12 col-sm-9">
                 <h2>Facts &amp; Figures</h2>
